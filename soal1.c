@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-int verify(int range0, int range1, int input){
-    if(input < range0 || input > range1){
-        return 0;
-    } else return 1;
-}
-
 void inputs(int* izin, int* suhu, int* radiasi, int* jam){
     scanf("%d %d %d %d", izin, suhu, radiasi, jam);
 }
